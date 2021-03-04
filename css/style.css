@@ -193,10 +193,20 @@ p {
   padding: 0;
 }
 
+.feature-sublist li {
+  margin-top: 64px;
+}
+
+.feature-sublist h3 {
+  margin-top: 28px;
+  margin-bottom: 25px;
+}
+
 .feature-sublist p {
   font-weight: normal;
   color: var(--basic-extra-dark);
   font-size: 14px;
+  margin-bottom: 82px;
 }
 
 .feature-item-2 {
@@ -212,8 +222,26 @@ p {
   background-color: var(--basic-light-blue);
 }
 
-.feature-item h3 {
+.feature-item-2 div {
+  padding: 50px 49px 51px 50px;
+}
+
+.feature-item-3 h3 {
+  margin-top: 47px;
   margin-bottom: 25px;
+}
+
+.feature-item-3 p:last-child {
+  margin-bottom: 54px;
+}
+
+.feature-item-4 h3 {
+  margin-top: 47px;
+  margin-bottom: 25px;
+}
+
+.feature-item-5 h3 {
+  margin-top: 47px;
 }
 
 .feature-item p {
@@ -226,6 +254,11 @@ p {
 
 .appointment {
   text-align: center;
+}
+
+.appointment h2 {
+  margin-top: 58px;
+  margin-bottom: 4px;
 }
 
 .appointment-item input::placeholder {
@@ -492,6 +525,7 @@ p {
   font-weight: bold;
   line-height: 26px;
   color: var(--basic-black);
+  text-align: center;
 }
 
 .footer-contacts a {
@@ -506,13 +540,24 @@ p {
   list-style: none;
 }
 
+.footer-social img {
+  width: 46px;
+  height: 48px;
+}
+
 .footer-social:hover{
   background-color: var(--basic-extra-blue);
 }
 
 .footer-copyright {
+  display: flex;
+  align-items: center;
   line-height: 26px;
   justify-self: end;
+}
+
+.footer-copyright p {
+  margin-right: 10px;
 }
 
 .footer-copyright a:hover {
