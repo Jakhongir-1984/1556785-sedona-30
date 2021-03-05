@@ -290,10 +290,6 @@ p {
   color: rgba(var(--basic-white-rgba), 0.3);
 }
 
-.appointment-info p {
-  line-height: 24px;
-}
-
 .appointment-item {
   font-weight: bold;
   line-height: 26px;
@@ -534,18 +530,21 @@ p {
 
 .footer-social {
   color: var(--basic-white);
-  background-color: var(--basic-light-blue);
   display: flex;
   justify-self: center;
   list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.footer-social img {
-  width: 46px;
-  height: 48px;
+.footer-social li {
+  background-color: var(--basic-light-blue);
 }
 
-.footer-social:hover{
+.footer-social li:hover{
   background-color: var(--basic-extra-blue);
 }
 
