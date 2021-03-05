@@ -261,6 +261,17 @@ p {
   margin-bottom: 4px;
 }
 
+.appointment-info {
+  padding-top: 31px;
+  padding-bottom: 28px;
+  margin-bottom: 24px;
+}
+
+.appointment-form {
+  width: 568px;
+  height: 395px;
+}
+
 .appointment-item input::placeholder {
   background-color: var(--bacis-light-gray);
   color: var(--basic-black);
@@ -540,11 +551,16 @@ p {
   justify-content: space-between;
 }
 
-.footer-social li {
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 48px;
   background-color: var(--basic-light-blue);
 }
 
-.footer-social li:hover{
+.social-button:hover{
   background-color: var(--basic-extra-blue);
 }
 
