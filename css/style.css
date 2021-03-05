@@ -269,7 +269,7 @@ p {
 
 .appointment-form {
   width: 568px;
-  height: 395px;
+  margin: 0 auto;
 }
 
 .appointment-item input::placeholder {
