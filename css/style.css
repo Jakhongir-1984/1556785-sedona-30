@@ -211,14 +211,14 @@ p {
 .feature-sublist-item:nth-child(1) h3 {
   position: relative;
   margin: 0;
-  margin-top: 120px;
+  padding-top: 148px;
 }
 
-.feature-sublist-item:nth-child(1) h3::after {
+.feature-sublist-item:nth-child(1) h3::before {
   content: "";
   position: absolute;
-  bottom: 30px;
-  left: 40%;
+  top: 60px;
+  left: 162px;
   width: 75px;
   height: 72px;
   background-image: url("../img/icon-1.svg");
