@@ -210,14 +210,15 @@ p {
 
 .feature-sublist-item:nth-child(1) h3 {
   position: relative;
-  margin-top: 20px;
+  margin: 0;
+  margin-top: 120px;
 }
 
 .feature-sublist-item:nth-child(1) h3::after {
   content: "";
   position: absolute;
-  left: 162px;
-  margin-top: 60px;
+  bottom: 30px;
+  left: 40%;
   width: 75px;
   height: 72px;
   background-image: url("../img/icon-1.svg");
