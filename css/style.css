@@ -225,6 +225,40 @@ p {
   background-repeat: no-repeat;
 }
 
+.feature-sublist-item:nth-child(2) h3 {
+  position: relative;
+  margin: 0;
+  padding-top: 148px;
+}
+
+.feature-sublist-item:nth-child(2) h3::before {
+  content: "";
+  position: absolute;
+  top: 61px;
+  left: 162px;
+  width: 75px;
+  height: 70px;
+  background-image: url("../img/icon-3.svg");
+  background-repeat: no-repeat;
+}
+
+.feature-sublist-item:nth-child(3) h3 {
+  position: relative;
+  margin: 0;
+  padding-top: 148px;
+}
+
+.feature-sublist-item:nth-child(3) h3::before {
+  content: "";
+  position: absolute;
+  top: 55px;
+  right: 168px;
+  width: 64px;
+  height: 77px;
+  background-image: url("../img/icon-2.svg");
+  background-repeat: no-repeat;
+}
+
 .feature-sublist-item p {
   font-weight: normal;
   color: var(--basic-extra-dark);
