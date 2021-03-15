@@ -16,6 +16,8 @@
   --basic-light-gray: #f2f2f2;
   --basic-dark-gray: #e5e5e5;
   --basic-extra-gray: #666666;
+  --basic-gray-button: #a9a9a9;
+  --basic-gray-input: #ebebeb;
   --special: #888888;
 }
 
@@ -211,7 +213,7 @@ p {
 .feature-sublist-item:nth-child(1) h3 {
   position: relative;
   margin: 0;
-  padding-top: 148px;
+  padding-top: 159px;
 }
 
 .feature-sublist-item:nth-child(1) h3::before {
@@ -228,7 +230,7 @@ p {
 .feature-sublist-item:nth-child(2) h3 {
   position: relative;
   margin: 0;
-  padding-top: 148px;
+  padding-top: 159px;
 }
 
 .feature-sublist-item:nth-child(2) h3::before {
@@ -245,7 +247,7 @@ p {
 .feature-sublist-item:nth-child(3) h3 {
   position: relative;
   margin: 0;
-  padding-top: 148px;
+  padding-top: 159px;
 }
 
 .feature-sublist-item:nth-child(3) h3::before {
@@ -302,7 +304,7 @@ p {
 }
 
 .feature-item p {
-  margin-top: 23px;
+  margin-top: 25px;
 }
 
 .feature-item {
@@ -314,20 +316,26 @@ p {
 }
 
 .appointment h2 {
-  margin-top: 58px;
+  margin-top: 56px;
   margin-bottom: 4px;
+  margin-right: 10px;
 }
 
 .appointment-info {
-  padding-top: 31px;
+  padding-top: 33px;
   padding-bottom: 28px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .appointment-form {
   width: 568px;
   margin: 0 auto;
   box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
+  position: absolute;
+  left: 50%;
+  margin-left: -284px;
+  background-color: var(--basic-white);
+  color: var(--basic-black);
 }
 
 .appointment-item {
@@ -344,13 +352,55 @@ p {
   height: 38px;
   padding: 0;
   margin: 0;
-}
-
-.appointment-item input::placeholder {
   background-color: var(--bacis-light-gray);
   color: var(--basic-black);
+}
+
+.appointment-form input {
   line-height: 26px;
   font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  background-color: var(--basic-light-gray);
+  color: var(--basic-black);
+}
+
+.appointment-item input:hover {
+  background-color: var(--basic-gray-input);
+}
+
+.appointment-item input:focus {
+  background-color: var(--basic-white);
+}
+
+.appointment-form input:focus {
+  border: 2px solid var(--basic-dark-gray);
+}
+
+.calendar-button {
+  position: absolute;
+  right: 55px;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  padding-right: 9px;
+  height: 38px;
+  color: inherit;
+}
+
+.calendar-button:hover path {
+  fill: var(--basic-black);
+  border: none;
+}
+
+.calendar-button:focus path {
+  fill: var(--basic-light-blue);
+  border: none;
+}
+
+.appointment-form input::placeholder {
+  color: var(--basic-black);
+  padding-left: 15px;
 }
 
 .appointment-button {
@@ -378,6 +428,19 @@ p {
 .appointment-item {
   font-weight: bold;
   line-height: 26px;
+}
+
+.map {
+  width: 1199px;
+  height: 594px;
+  display: block;
+  margin: 0 auto;
+  background: url("../img/map.svg");
+}
+
+.map figure {
+  margin: 0;
+  padding: 0;
 }
 
 /* Button */
