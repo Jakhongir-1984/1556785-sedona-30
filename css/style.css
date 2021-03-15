@@ -343,8 +343,23 @@ p {
   justify-content: space-between;
   padding-right: 55px;
   padding-left: 55px;
-  padding-top: 30px;
   align-items: center;
+}
+
+.appointment-item:nth-child(1) {
+  padding-top: 55px;
+  padding-bottom: 29px;
+}
+
+.appointment-item:nth-child(3),
+.appointment-item:nth-child(4) {
+  padding-top: 30px;
+  display: flex;
+}
+
+.appointment-item:nth-child(3) input,
+.appointment-item:nth-child(4) input {
+  width: 114px;
 }
 
 .appointment-item input {
