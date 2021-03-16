@@ -336,11 +336,12 @@ p {
   margin-left: -284px;
   background-color: var(--basic-white);
   color: var(--basic-black);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .appointment-item {
-  display: flex;
-  justify-content: space-between;
+
   padding-right: 55px;
   padding-left: 55px;
   align-items: center;
@@ -354,7 +355,6 @@ p {
 .appointment-item:nth-child(3),
 .appointment-item:nth-child(4) {
   padding-top: 30px;
-  display: flex;
 }
 
 .appointment-item:nth-child(3) input,
