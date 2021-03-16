@@ -341,10 +341,9 @@ p {
 }
 
 .appointment-item {
-
   padding-right: 55px;
   padding-left: 55px;
-  align-items: center;
+
 }
 
 .appointment-item:nth-child(1) {
@@ -371,6 +370,10 @@ p {
   color: var(--basic-black);
 }
 
+.appointment-item:first-child input {
+  margin-left: 18px;
+}
+
 .appointment-form input {
   line-height: 26px;
   font-weight: bold;
@@ -390,6 +393,11 @@ p {
 
 .appointment-form input:focus {
   border: 2px solid var(--basic-dark-gray);
+}
+
+.appointment-form input::placeholder {
+  color: var(--basic-black);
+  padding-left: 15px;
 }
 
 .calendar-button {
@@ -413,9 +421,12 @@ p {
   border: none;
 }
 
-.appointment-form input::placeholder {
-  color: var(--basic-black);
-  padding-left: 15px;
+.minus-button {
+  margin-left: 43px;
+}
+
+.plus-button {
+  margin-right: 43px;
 }
 
 .appointment-button {
